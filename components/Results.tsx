@@ -64,7 +64,7 @@ const Results: React.FC = () => {
         </div>
         <div className="lg:col-span-1 bg-gray-800/60 p-6 rounded-lg shadow-lg border border-gray-700">
            <h3 className="text-2xl font-bold text-green-400 mb-4">Obrigado Apoiadores!</h3>
-           <img src="https://i.imgur.com/9C3mO7A.jpg" alt="Sponsors" className="rounded-lg mb-6 shadow-md" />
+           <img src="https://storage.googleapis.com/aistudio-hosting/projects/rally-da-selva/agradecimentos.jpg" alt="Sponsors" className="rounded-lg mb-6 shadow-md" />
            <p className="text-gray-300 text-center mb-4">
              PARA OS RESULTADOS COMPLETOS E INDIVIDUAIS CLIQUE NO BOTÃO DOWNLOAD.
            </p>

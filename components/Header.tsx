@@ -12,8 +12,8 @@ const Header: React.FC = () => {
     <header className="sticky top-0 bg-black/50 backdrop-blur-md z-50 shadow-lg">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         <div className="flex items-center space-x-4">
-          <img src="https://i.imgur.com/w4o214B.png" alt="Rally da Selva Logo" className="h-10 md:h-12" />
-          <img src="https://i.imgur.com/s6n5s20.png" alt="Onça Logo" className="h-10 md:h-12 hidden sm:block" />
+          <img src="https://storage.googleapis.com/aistudio-hosting/projects/rally-da-selva/RALLY.png" alt="Rally da Selva Logo" className="h-10 md:h-12" />
+          <img src="https://storage.googleapis.com/aistudio-hosting/projects/rally-da-selva/onca_panara.png" alt="Onça Logo" className="h-10 md:h-12 hidden sm:block" />
         </div>
         <div className="flex items-center space-x-4 md:space-x-6">
           <SocialIcon href="#">

@@ -10,7 +10,7 @@ const App: React.FC = () => {
   return (
     <div 
       className="bg-gray-900 min-h-screen bg-no-repeat bg-cover bg-fixed text-white font-sans"
-      style={{ backgroundImage: "url('https://i.imgur.com/pDrwE2I.jpg')" }}
+      style={{ backgroundImage: "url('https://storage.googleapis.com/aistudio-hosting/projects/rally-da-selva/background01.jpg')" }}
     >
       <div className="bg-black/70 min-h-screen">
         <Header />
