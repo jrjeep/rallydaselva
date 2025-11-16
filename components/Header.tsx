@@ -11,14 +11,6 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 bg-black/50 backdrop-blur-md z-50 shadow-lg">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
-<<<<<<< HEAD
-        <div className="flex items-center space-x-4">
-          <img src="https://storage.googleapis.com/aistudio-hosting/projects/rally-da-selva/RALLY.jpg" alt="Rally da Selva Logo" className="h-10 md:h-12" />
-          <img src="assets/images/onca_panara.jpg" alt="Onça Logo" className="h-10 md:h-12 hidden sm:block" />
-          <img src="assets/images/teste.jpg"  />
-        </div>
-        <div className="flex items-center space-x-4 md:space-x-6">
-=======
         <div className="flex items-left space-x-4">
           <img src="assets/images/8_maio_sfundo.jpg" alt="Rally da Selva Logo" className="h-24 md:h-32 hidden sm:block" />
         </div>
@@ -27,7 +19,6 @@ const Header: React.FC = () => {
           <img src="assets/images/rally.png" alt="Rally da Selva Logo" className="h-20 md:h-28 hidden sm:block" />
         </div>
         <div className="flex flex-col items-center space-y-4 md:space-y-6">
->>>>>>> 8d26f15 (maquina local)
           <SocialIcon href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
           </SocialIcon>
