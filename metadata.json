@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-{
-  "name": "Rally da Selva",
-  "description": "A website for the Rally da Selva sport competition, providing information about the event, categories, registration, and results.",
-  "requestFramePermissions": []
-}
-=======
-
 {
   "name": "Rally da Selva",
   "description": "A website for the Rally da Selva sport competition, providing event information, results, and sponsor details."
 }
->>>>>>> 8d26f15 (maquina local)
