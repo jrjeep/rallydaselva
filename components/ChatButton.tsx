@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
+=======
+
+import React, { useState } from 'react';
+import { ChatIcon, CloseIcon, WhatsappIcon, EmailIcon } from './icons';
+>>>>>>> 8d26f15 (maquina local)
 
 const ChatButton: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,6 +14,7 @@ const ChatButton: React.FC = () => {
 
   return (
     <div className="fixed bottom-5 right-5 z-50">
+<<<<<<< HEAD
       {isOpen && (
         <div className="mb-2 flex flex-col items-end space-y-2">
           <a
@@ -43,6 +50,32 @@ const ChatButton: React.FC = () => {
         ) : (
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
         )}
+=======
+      <div className={`transition-all duration-300 ease-in-out flex flex-col items-center gap-3 ${isOpen ? 'opacity-100' : 'opacity-0 -translate-y-4 pointer-events-none'}`}>
+        <a 
+          href={whatsappLink} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="bg-green-500 hover:bg-green-600 text-white rounded-full p-3 shadow-lg flex items-center justify-center w-12 h-12"
+          aria-label="Contact on WhatsApp"
+        >
+          <WhatsappIcon />
+        </a>
+        <a 
+          href={emailLink} 
+          className="bg-red-500 hover:bg-red-600 text-white rounded-full p-3 shadow-lg flex items-center justify-center w-12 h-12"
+          aria-label="Contact via Email"
+        >
+          <EmailIcon />
+        </a>
+      </div>
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="bg-orange-600 hover:bg-orange-700 text-white rounded-full p-4 shadow-lg mt-3 transition-transform transform hover:scale-110 focus:outline-none"
+        aria-label="Toggle chat options"
+      >
+        {isOpen ? <CloseIcon /> : <ChatIcon />}
+>>>>>>> 8d26f15 (maquina local)
       </button>
     </div>
   );
